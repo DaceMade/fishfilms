@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Abel;
+    color: white;
+    font-size: 36px;
+    background: url('../img/denis.jpg') no-repeat fixed center top / cover;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    font-family: Abel;
+    color: black;
+    font-size: 16px;
+}
+
+ul, li {
+    display: block;
+}
+
+header img {
+    height: 65px;
+    width: 65px;
+    margin-right: 18px;
+}
+
+.nav {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 106px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 70px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin-left: 940px;
+}
+
+.menu li a {
+    margin-right: 65px;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+    color: black;
+    background: white;
+}
+
+.info {
+    margin-top: 600px;
+    margin-left: 106px;
+    color: black;
+}
+
+.director {
+    margin-left: 6px;
+    font-size: 96px;
+}
