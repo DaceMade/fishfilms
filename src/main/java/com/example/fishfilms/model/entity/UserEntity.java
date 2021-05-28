@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.UUID;
@@ -14,16 +13,16 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "DIRECTOR")
-public class DirectorEntity {
+@Table(name = "USER")
+public class UserEntity {
     @Id
     @Column(name = "id", columnDefinition = "uniqueidentifier")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    @Column(name = "name")
-    private String name;
+    private boolean isAdmin;
 
-    @Column(name = "img")
-    private String img;
+    private String login;
+
+    private String password;
 }

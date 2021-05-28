@@ -38,6 +38,6 @@ public class DirectorDatabaseTest {
         directorsRepository.save(testEntity);
         List<DirectorEntity> expectedEntity = directorsRepository.findAllByNameAndImg(testUuid.toString(), "testimage");
         Assert.assertEquals(expectedEntity.get(0).getId(), testEntity.getId());
-        directorsRepository.deleteAll();
+        //directorsRepository.deleteAll();
     }
 }
