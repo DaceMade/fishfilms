@@ -1,4 +1,4 @@
-package com.example.fishfilms.service.impl;
+package com.example.fishfilms.service;
 
 import com.example.fishfilms.model.dto.Director;
 

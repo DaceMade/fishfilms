@@ -4,7 +4,7 @@ body {
     font-family: Abel;
     color: white;
     font-size: 36px;
-    background: url('../img/as.jpg') no-repeat fixed center top / cover;
+    background: red;
 }
 
 button {
@@ -79,6 +79,7 @@ header img {
 .film {
     font-size: 96px;
 }
+
 
 .director {
     margin-left: 6px;

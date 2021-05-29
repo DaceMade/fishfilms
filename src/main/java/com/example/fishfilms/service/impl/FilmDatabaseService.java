@@ -1,19 +1,12 @@
-package com.example.fishfilms.service;
+package com.example.fishfilms.service.impl;
 
-import com.example.fishfilms.model.entity.DirectorEntity;
-import com.example.fishfilms.model.entity.FilmsEntity;
-import com.example.fishfilms.repository.DirectorsRepository;
 import com.example.fishfilms.repository.FilmsRepository;
-import com.example.fishfilms.service.impl.FilmService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
-import java.util.ArrayList;
-import java.util.LinkedList;
 
 @Service
-public class FilmDatabaseService implements FilmService {
+public class FilmDatabaseService {
 
 
     private final FilmsRepository filmsRepository;

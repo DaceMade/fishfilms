@@ -1,4 +1,4 @@
-package com.example.fishfilms.service;
+package com.example.fishfilms.service.impl;
 
 import com.example.fishfilms.model.dto.Director;
 import com.example.fishfilms.model.entity.DirectorEntity;
@@ -8,7 +8,7 @@ import com.example.fishfilms.model.entity.ViewsEntity;
 import com.example.fishfilms.repository.DirectorsRepository;
 import com.example.fishfilms.repository.UserRepository;
 import com.example.fishfilms.repository.ViewsRepository;
-import com.example.fishfilms.service.impl.DirectorService;
+import com.example.fishfilms.service.DirectorService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;

@@ -13,7 +13,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "USER")
+@Table(name = "USERS")
 public class UserEntity {
     @Id
     @Column(name = "id", columnDefinition = "uniqueidentifier")
